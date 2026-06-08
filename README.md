@@ -96,7 +96,7 @@ prettier --check .           # lint
 - [x] Coordination skills (`list/status/send/run/chat/task/team`)
 - [x] Delegation rule (`rules/bwoc-delegation.md`)
 - [x] Deep-memory skill
-- [ ] Skill re-export from BWOC skills
+- [x] Skill re-export from BWOC skills (scripts/sync-skills.sh)
 - [ ] Smoke test in Antigravity IDE + CLI
 
 ## 🔗 BWOC host-adapter set

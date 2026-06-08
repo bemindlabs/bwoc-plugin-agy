@@ -3,3 +3,7 @@
 .DS_Store
 .bwoc/
 node_modules/
+
+# Locally-generated skill re-exports (scripts/sync-skills.sh) — never committed.
+# Narrow glob so it never matches the committed skills/bwoc-* coordination skills.
+/skills/fw-*/
