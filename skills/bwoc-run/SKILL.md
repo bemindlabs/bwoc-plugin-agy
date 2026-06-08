@@ -25,7 +25,7 @@ Useful flags (from `bwoc run --help`):
 
 ## Example
 ```bash
-bwoc run agent-luban --task "Summarize the open issues in the framework repo" --json --timeout 600
+bwoc run <agent> --task "Summarize the open issues in the framework repo" --json --timeout 600
 ```
 
 Relay the captured `output` (and non-zero `exit_code`, if any) back to the user.

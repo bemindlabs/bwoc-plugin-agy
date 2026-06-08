@@ -64,8 +64,8 @@ git clone https://github.com/bemindlabs/bwoc-plugin-agy ~/.gemini/config/plugins
 
 ```text
 "List the BWOC agents"                    # routed via the bwoc skill
-"Send agent-luban a task to build X"      # bwoc send
-"Run agent-luban headless and report"     # bwoc run
+"Send <agent> a task to build X"      # bwoc send
+"Run <agent> headless and report"     # bwoc run
 ```
 
 ## 🗂️ Repository layout
@@ -109,9 +109,9 @@ One of five BWOC → host adapters — **八仙過海・各顯神通** (the Eigh
 | OpenClaw | [bwoc-plugin-openclaw](https://github.com/bemindlabs/bwoc-plugin-openclaw) | 鐵拐李 Li Tieguai |
 | Hermes | [bwoc-plugin-hermes](https://github.com/bemindlabs/bwoc-plugin-hermes) | 漢鍾離 Han Zhongli |
 
-## 🙏 Steward
+## 🙏 Maintainer
 
-Maintained by **`agent-zhangguolao`** (張果老 Zhang Guolao) — the immortal who rides his donkey **backwards**, defying convention and gravity alike. The natural patron of *Antigravity*.
+Maintained by **Bemind Technology**, part of the BWOC host-adapter set. This connector is **generic**: it ships no agents, teams, or workspace identities of its own — it discovers your fleet from the local `bwoc` workspace at runtime.
 
 ## 🤝 Contributing
 

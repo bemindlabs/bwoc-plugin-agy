@@ -30,7 +30,7 @@ Arguments + flags (from `bwoc team <sub> --help`):
 ## Example
 ```bash
 bwoc team list --json
-bwoc team create saturn-six --members agent-luban,agent-yanluo,agent-laojun
+bwoc team create <team> --members <agent>,<agent>,<agent>
 ```
 
 Note: add/remove individual members by editing `.bwoc/teams/<team>.toml` directly — there is no member-add subcommand.

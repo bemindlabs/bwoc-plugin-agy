@@ -32,7 +32,7 @@ Arguments + flags (from `bwoc task <sub> --help`):
 
 ## Example
 ```bash
-bwoc task list saturn-six --json
-bwoc task add saturn-six "Draft the API spec" --deps t1,t2
-bwoc task claim saturn-six t3 --as agent-luban
+bwoc task list <team> --json
+bwoc task add <team> "Draft the API spec" --deps t1,t2
+bwoc task claim <team> <task> --as <agent>
 ```

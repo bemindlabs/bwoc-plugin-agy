@@ -29,5 +29,5 @@ Because `bwoc chat` is interactive/exec-style, it is best launched in an attache
 
 ## Example
 ```bash
-bwoc chat agent-laojun --tmux
+bwoc chat <agent> --tmux
 ```

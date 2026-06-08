@@ -8,7 +8,7 @@ The `bwoc` CLI **must be installed and on `PATH`**, with a BWOC workspace reacha
 ## When to delegate
 Prefer delegating to a BWOC agent when:
 - The task maps to a specialist already in the fleet (run `bwoc list` to see who exists and on which backend).
-- The user explicitly names an agent or team ("ask agent-luban…", "have the saturn-six team…").
+- The user explicitly names an agent or team ("ask <agent>…", "have the <team> team…").
 - The work is better run headless and reported back, or run async into an agent's inbox.
 
 Do **not** delegate trivial local edits you can do directly; delegation is for fleet-appropriate work.

@@ -23,6 +23,6 @@ Useful flags (from `bwoc status --help`):
 
 ## Example
 ```bash
-bwoc status agent-luban --json
+bwoc status <agent> --json
 bwoc status --all
 ```

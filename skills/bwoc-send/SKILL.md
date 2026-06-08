@@ -27,6 +27,6 @@ Useful flags (from `bwoc send --help`):
 
 ## Example
 ```bash
-bwoc send agent-luban "Build the export pipeline and open a PR"
-bwoc send agent-yanluo --file ./brief.md --from agent-luban
+bwoc send <agent> "Build the export pipeline and open a PR"
+bwoc send <agent> --file ./brief.md --from <agent>
 ```
