@@ -24,7 +24,7 @@ bwoc list
 | See the fleet / get agent ids | `bwoc-list` | `bwoc list` | no |
 | Check agent/fleet health | `bwoc-status` | `bwoc status` | no |
 | Drop an async message in an inbox | `bwoc-send` | `bwoc send` | yes |
-| One-shot delegate, capture result | `bwoc-run` | `bwoc run --task` | yes (runs backend) |
+| One-shot delegate, capture result | `bwoc-run` | `bwoc run <agent> --task "…"` | yes (runs backend) |
 | Interactive session with an agent | `bwoc-chat` | `bwoc chat` | yes (execs backend) |
 | Drive a team's shared task list | `bwoc-task` | `bwoc task` | mixed |
 | Form / list / retire teams | `bwoc-team` | `bwoc team` | mixed |
